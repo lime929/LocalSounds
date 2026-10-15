@@ -1,0 +1,43 @@
+
+/* Footer */
+.myFooter {
+    background-color: #ccd7d9;
+    padding: 1.5rem;
+    text-align: center;
+    border-top: 3px dashed #e5989b;
+    font-family: "Sour Gummy", sans-serif;
+    color: #4b242c;
+  }
+  
+  .footer-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    background-color: #a96464;
+    border-radius: 8px;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .footer-logo {
+    width: 60px;
+  }
+  
+  .footer-title h3 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #a96464;
+  }
+  
+  .footer-title p {
+    margin: 0;
+    font-size: 0.95rem;
+    color: #b5828c;
+  }
+  
+  .footer-copyright {
+    font-size: 0.85rem;
+    color: #a0626f;
+  }
+  
