@@ -25,8 +25,8 @@ export default function About() {
           </p>
         </div>
 
-        <section className="homeArtists">
-          <h2>Our Origin</h2>
+        <section className="intro">
+          <h1>Our Origin</h1>
           <p>
             Local Sounds was born out of a love for music and a desire to support the local music scene in Chicago. We started as a small group of music lovers who wanted to share their passion for music with others and help bring more opportunities for local artists to perform. Every month, we curate a playlist that highlights ten up-and-coming acts, playable directly on our homepage, so you can discover new tracks without leaving the site.
           </p>
@@ -38,8 +38,8 @@ export default function About() {
           </p>
         </section>
 
-        <section className="homeEvents">
-          <h2>Meet the Team</h2>
+        <section className="intro">
+          <h1>Meet the Team</h1>
           <p>
             Local Sounds is united by a shared passion for Chicago's music culture and a commitment to uplifting voices in the city. We aim to build a platform that serves both artists and fans. By collaborating closely with local venues, promoters, and fellow music enthusiasts, we ensure that our website and events are relevant and inclusive. Together, we strive to create an environment where every emerging artist has the support and visibility they need to thrive.
           </p>

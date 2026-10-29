@@ -17,9 +17,6 @@ export default function Footer() {
 <br />
 [773] xxx-xxxx | contact@localsoundschi.com
 <br />
-HOURS
-Open: Mon-Fri 4pm & Sat-Sun 11am
-<br />
 Hours: M-Th 1-9pm, Fri 3-11pm, Sat 11am-11pm, Sun 11am to 9pm
 </p>
     </div>

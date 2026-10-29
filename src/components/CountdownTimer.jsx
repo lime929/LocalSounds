@@ -56,8 +56,8 @@ export default function CountdownTimer({ eventDate }) {
           <span className="countdown-number">{formatNumber(minutes)}</span>
           <span className="countdown-label">Minutes</span>
         </div>
-        <div className="countdown-separator">:</div>
-        <div className="countdown-item">
+        <div className="countdown-separator remove-item">:</div>
+        <div className="countdown-item remove-item">
           <span className="countdown-number">{formatNumber(seconds)}</span>
           <span className="countdown-label">Seconds</span>
         </div>

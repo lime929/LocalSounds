@@ -161,7 +161,7 @@
   font-family: "Zain", sans-serif;
   font-weight: 700;
   font-style: normal;
-  margin-top: 4px;
+  margin-top: 10px;
   margin-bottom: 4px;
   text-align: center;
 }
@@ -773,16 +773,23 @@
 
 .artistImage, .eventImage, .shopImage {
   width: 100%;
-  height: 300px;
+  height: 400px;
   object-fit: cover;
   border-bottom: 4px solid #B8CFCE;
   transition: transform 0.3s ease;
+  object-fit: contain;
+  object-position: center;
+  background: #eaeff0;
 }
 
-.artistCard:hover .artistImage,
-.eventCard:hover .eventImage,
 .shopCard:hover .shopImage {
   transform: scale(1.02);
+}
+
+.artistImage, .eventImage, .shopImage {
+  height: auto;
+  object-fit: initial;
+  background: transparent;
 }
 
 .artist-header, .event-header, .shop-header {
@@ -888,11 +895,6 @@
   margin: 0 auto;
 }
 
-.homeArtists .artistImage,
-.homeEvents .eventImage,
-.homeShops .shopImage {
-  height: 400px;
-}
 /* Navigation */
 .navbar {
   display: flex;
@@ -1200,9 +1202,13 @@
   /* Cards */
   .artistCard, .eventCard, .shopCard {
     margin-bottom: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    grid-column: 1 / span 2;
   }
+
   
-  .artistImage, .eventImage, .shopImage {
+  .shopImage {
     height: 250px;
   }
   
@@ -1290,4 +1296,29 @@
   margin: 0 0.2rem;
 }
   
+}
+
+@media (max-width: 950px) {
+    .artistCard, .eventCard, .shopCard {
+    margin-bottom: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    grid-column: 1 / span 2;
+  }
+}
+
+@media (max-width: 768px) {
+  .countdown-container {
+  text-align: center;
+  margin: 0 auto 2.2rem auto;
+  max-width: 450px;
+  max-height: 200px;
+  }
+}
+@media (max-width: 500px) {
+  .countdown-container {
+  .remove-item {
+    display: none;
+  }
+  }
 }
