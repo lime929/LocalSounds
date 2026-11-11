@@ -1,7 +1,7 @@
 // artists images
 import mikeharold from "./assets/mikeharold.jpg";
 import ariaNova from "./assets/arianova.jpg";
-import djEcho from "./assets/djecho.jpg";
+import djEcho from "./assets/djEcho.jpg";
 import southSideBoyz from "./assets/southsideboyz.jpg";
 
 import sofiaDelgado from "./assets/sofiaDelgado.jpg";

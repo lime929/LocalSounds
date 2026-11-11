@@ -1,7 +1,7 @@
 // artists images
 import mikeharold from "./assets/mikeharold.jpg";
 import ariaNova from "./assets/arianova.jpg";
-import djEcho from "./assets/djecho.jpg";
+import djEcho from "./assets/djEcho.jpg";
 import southSideBoyz from "./assets/southsideboyz.jpg";
 
 import sofiaDelgado from "./assets/sofiaDelgado.jpg";
@@ -9,6 +9,7 @@ import marcusLee from "./assets/marcusLee.jpg";
 import jasmineTorres from "./assets/jasmineTorres.jpg";
 import evanParker from "./assets/evanParker.jpg";
 import natalieRivers from "./assets/natalieRivers.jpg";
+import carlosMendez from "./assets/carlosMendez.jpg";
 
 // Latest events images
 import jazz from "./assets/jazz.jpg";
@@ -21,6 +22,8 @@ import folk from "./assets/folk.jpg";
 import rooftop from "./assets/rooftop.jpg";
 import latin from "./assets/latin.jpg";
 import classical from "./assets/classical.jpg";
+import blues2 from "./assets/blues2.jpg";
+
 
 // Shops Images
 import reckless from "./assets/reckless.jpg";
@@ -38,7 +41,7 @@ import past from "./assets/past.jpg";
 export const latestEvents = [
   {
     title: "Jazz Night at Green Mill",
-    date: "June 10, 2025",
+    date: "June 29, 2025",
     location: "Green Mill Cocktail Lounge",
     image: jazz,
     description:
@@ -54,7 +57,7 @@ export const latestEvents = [
   },
   {
     title: "House Grooves at Smart Bar",
-    date: "June 2, 2025",
+    date: "June 21, 2025",
     location: "Smart Bar, Lakeview",
     image: house,
     description:
@@ -62,7 +65,7 @@ export const latestEvents = [
   },
   {
     title: "Open Mic at Reggie's Rock Club",
-    date: "June 3, 2025",
+    date: "June 30, 2025",
     location: "Reggie's Rock Club, South Loop",
     image: openMic,
     description:
@@ -174,6 +177,14 @@ export const artists = [
     image: natalieRivers,
     bio: "Natalie Rivers brings a nostalgic '80s vibe to Chicago's synthwave community with her lush, neon-infused soundscapes. Her track “Digital Mirage” became a viral hit on local streaming platforms in late 2024.",
   },
+  {
+    id: 10,
+    name: "Carlos Mendez",
+    age: 27,
+    genre: "Latin Jazz",
+    image: carlosMendez,
+    bio: "Carlos Mendez is a rising star in Chicago's Latin jazz scene, blending traditional rhythms with modern flair. His dynamic live performances have captivated audiences at venues like the Green Mill and the Jazz Showcase.",
+  },
 ];
 
 export const events = [
@@ -198,7 +209,7 @@ export const events = [
   {
     id: 3,
     title: "House Grooves at Smart Bar",
-    date: "June 2, 2025",
+    date: "June 28, 2025",
     location: "Smart Bar, Lakeview",
     image: house,
     description:
@@ -207,7 +218,7 @@ export const events = [
   {
     id: 4,
     title: "Open Mic at Reggie's Rock Club",
-    date: "June 3, 2025",
+    date: "June 13, 2025",
     location: "Reggie's Rock Club, South Loop",
     image: openMic,
     description:
@@ -216,7 +227,7 @@ export const events = [
   {
     id: 5,
     title: "Blues & Brews Festival",
-    date: "June 20, 2025",
+    date: "June 21, 2025",
     location: "Montrose Harbor",
     image: blues,
     description:
@@ -257,6 +268,15 @@ export const events = [
     image: classical,
     description:
       "Celebrate Independence Day with a free outdoor concert featuring the Chicago Philharmonic at Millennium Park. Bring a blanket and enjoy patriotic favorites alongside classical masterpieces under the city skyline.",
+  },
+  {
+    id: 10,
+    title: "Chicago Blues & BBQ Festival",
+    date: "July 12-14, 2025",
+    location: "Grant Park",
+    image: blues2,
+    description:
+      "Experience the soul of Chicago with three days of live blues music and mouthwatering BBQ. This annual festival brings together legendary blues musicians and award-winning pitmasters for a weekend of great music and food in the heart of the city.",
   }
 ];
 
