@@ -2,7 +2,7 @@
 import mikeharold from "./assets/mikeharold.jpg";
 import ariaNova from "./assets/arianova.jpg";
 import djEcho from "./assets/djEcho.jpg";
-import southSideBoyz from "./assets/southsideboyz.jpg";
+import southSideBoyz from "./assets/southSideBoyz.jpg";
 
 import sofiaDelgado from "./assets/sofiaDelgado.jpg";
 import marcusLee from "./assets/marcusLee.jpg";
@@ -15,7 +15,7 @@ import carlosMendez from "./assets/carlosMendez.jpg";
 import jazz from "./assets/jazz.jpg";
 import indie from "./assets/indie.jpg";
 import house from "./assets/house.jpg";
-import openMic from "./assets/openmic.jpg";
+import openMic from "./assets/openMic.jpg";
 
 import blues from "./assets/blues.jpg";
 import folk from "./assets/folk.jpg";
